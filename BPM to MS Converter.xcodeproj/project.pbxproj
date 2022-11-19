@@ -11,6 +11,7 @@
 		5FA7B48029299BAE009BB2B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA7B47F29299BAE009BB2B8 /* ContentView.swift */; };
 		5FA7B48229299BAF009BB2B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FA7B48129299BAF009BB2B8 /* Assets.xcassets */; };
 		5FA7B48529299BAF009BB2B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FA7B48429299BAF009BB2B8 /* Preview Assets.xcassets */; };
+		5FA7B48D29299C0F009BB2B8 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA7B48C29299C0F009BB2B8 /* Converter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		5FA7B48129299BAF009BB2B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FA7B48429299BAF009BB2B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5FA7B48629299BAF009BB2B8 /* BPM_to_MS_Converter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BPM_to_MS_Converter.entitlements; sourceTree = "<group>"; };
+		5FA7B48C29299C0F009BB2B8 /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				5FA7B47D29299BAE009BB2B8 /* BPM_to_MS_ConverterApp.swift */,
 				5FA7B47F29299BAE009BB2B8 /* ContentView.swift */,
+				5FA7B48C29299C0F009BB2B8 /* Converter.swift */,
 				5FA7B48129299BAF009BB2B8 /* Assets.xcassets */,
 				5FA7B48629299BAF009BB2B8 /* BPM_to_MS_Converter.entitlements */,
 				5FA7B48329299BAF009BB2B8 /* Preview Content */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FA7B48029299BAE009BB2B8 /* ContentView.swift in Sources */,
+				5FA7B48D29299C0F009BB2B8 /* Converter.swift in Sources */,
 				5FA7B47E29299BAE009BB2B8 /* BPM_to_MS_ConverterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,17 +267,23 @@
 		5FA7B48A29299BAF009BB2B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = bpmicon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=macosx*]" = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "BPM to MS Converter/BPM_to_MS_Converter.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BPM to MS Converter/Preview Content\"";
 				DEVELOPMENT_TEAM = B3WMEF9R8D;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "BPM to MS Converter";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,17 +300,23 @@
 		5FA7B48B29299BAF009BB2B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = bpmicon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=macosx*]" = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "BPM to MS Converter/BPM_to_MS_Converter.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BPM to MS Converter/Preview Content\"";
 				DEVELOPMENT_TEAM = B3WMEF9R8D;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "BPM to MS Converter";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
