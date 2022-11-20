@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/dax/Documents/Development/XCode/BPM to MS Converter/BPM to MS.xcodeproj">
    </FileRef>
 </Workspace>

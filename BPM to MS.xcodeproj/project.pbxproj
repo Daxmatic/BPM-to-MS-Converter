@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5FA7B47A29299BAE009BB2B8 /* BPM to MS Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BPM to MS Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FA7B47A29299BAE009BB2B8 /* BPM to MS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BPM to MS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FA7B47D29299BAE009BB2B8 /* BPM_to_MS_ConverterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPM_to_MS_ConverterApp.swift; sourceTree = "<group>"; };
 		5FA7B47F29299BAE009BB2B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5FA7B48129299BAF009BB2B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		5FA7B47B29299BAE009BB2B8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5FA7B47A29299BAE009BB2B8 /* BPM to MS Converter.app */,
+				5FA7B47A29299BAE009BB2B8 /* BPM to MS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,9 +75,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5FA7B47929299BAE009BB2B8 /* BPM to MS Converter */ = {
+		5FA7B47929299BAE009BB2B8 /* BPM to MS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5FA7B48929299BAF009BB2B8 /* Build configuration list for PBXNativeTarget "BPM to MS Converter" */;
+			buildConfigurationList = 5FA7B48929299BAF009BB2B8 /* Build configuration list for PBXNativeTarget "BPM to MS" */;
 			buildPhases = (
 				5FA7B47629299BAE009BB2B8 /* Sources */,
 				5FA7B47729299BAE009BB2B8 /* Frameworks */,
@@ -87,9 +87,9 @@
 			);
 			dependencies = (
 			);
-			name = "BPM to MS Converter";
+			name = "BPM to MS";
 			productName = "BPM to MS Converter";
-			productReference = 5FA7B47A29299BAE009BB2B8 /* BPM to MS Converter.app */;
+			productReference = 5FA7B47A29299BAE009BB2B8 /* BPM to MS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -107,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5FA7B47529299BAE009BB2B8 /* Build configuration list for PBXProject "BPM to MS Converter" */;
+			buildConfigurationList = 5FA7B47529299BAE009BB2B8 /* Build configuration list for PBXProject "BPM to MS" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -120,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5FA7B47929299BAE009BB2B8 /* BPM to MS Converter */,
+				5FA7B47929299BAE009BB2B8 /* BPM to MS */,
 			);
 		};
 /* End PBXProject section */
@@ -282,7 +282,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "BPM to MS Converter";
+				INFOPLIST_KEY_CFBundleDisplayName = "BPM to MS";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,7 +315,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "BPM to MS Converter";
+				INFOPLIST_KEY_CFBundleDisplayName = "BPM to MS";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -333,7 +333,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5FA7B47529299BAE009BB2B8 /* Build configuration list for PBXProject "BPM to MS Converter" */ = {
+		5FA7B47529299BAE009BB2B8 /* Build configuration list for PBXProject "BPM to MS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5FA7B48729299BAF009BB2B8 /* Debug */,
@@ -342,7 +342,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5FA7B48929299BAF009BB2B8 /* Build configuration list for PBXNativeTarget "BPM to MS Converter" */ = {
+		5FA7B48929299BAF009BB2B8 /* Build configuration list for PBXNativeTarget "BPM to MS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5FA7B48A29299BAF009BB2B8 /* Debug */,

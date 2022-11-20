@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5FA7B47929299BAE009BB2B8"
-               BuildableName = "BPM to MS Converter.app"
-               BlueprintName = "BPM to MS Converter"
-               ReferencedContainer = "container:BPM to MS Converter.xcodeproj">
+               BuildableName = "BPM to MS.app"
+               BlueprintName = "BPM to MS"
+               ReferencedContainer = "container:BPM to MS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5FA7B47929299BAE009BB2B8"
-            BuildableName = "BPM to MS Converter.app"
-            BlueprintName = "BPM to MS Converter"
-            ReferencedContainer = "container:BPM to MS Converter.xcodeproj">
+            BuildableName = "BPM to MS.app"
+            BlueprintName = "BPM to MS"
+            ReferencedContainer = "container:BPM to MS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5FA7B47929299BAE009BB2B8"
-            BuildableName = "BPM to MS Converter.app"
-            BlueprintName = "BPM to MS Converter"
-            ReferencedContainer = "container:BPM to MS Converter.xcodeproj">
+            BuildableName = "BPM to MS.app"
+            BlueprintName = "BPM to MS"
+            ReferencedContainer = "container:BPM to MS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
